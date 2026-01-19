@@ -17,7 +17,7 @@ app.use(express.json())
 
 
 app.use(cors({
-  origin: process.env.originLink,
+  origin: "https://predusk-ka-assingment.vercel.app",
   credentials: true
 }));
 
